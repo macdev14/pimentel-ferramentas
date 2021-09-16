@@ -53,8 +53,8 @@ class email
         $mail->SMTPDebug = false;    
 		$mail->Host = "smtp.sendgrid.net";
 		$mail->SMTPAuth = true;
-		$mail->Username = 'lauropimentel';
-		$mail->Password = 'mac_coder2002';
+		$mail->Username = '';
+		$mail->Password = '';
 		$mail->SMTPSecure = 'tls';
 		$mail->Port = 587;
 		
